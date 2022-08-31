@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+    width: 400px;
+    background-color: black;
+
+}
+
+.container-titulo {
+    display: flex;
+    background-color: pink;
+    border: 1px solid white;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+
+.titulo {
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+
+}
+
+.container-relogio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 175px;
+    border: solid 1px black;
+    justify-content: space-between;
+}
+
+.container-relogio > span {
+    font-size: 32px;
+    font-weight: 600;
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 15px;
+    background-color: black;
+    
+
+}
